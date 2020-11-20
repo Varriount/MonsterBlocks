@@ -29,7 +29,7 @@ export class MonsterBlock5e extends ActorSheet5eNPC {
 	static get defaultOptions() {
 		return mergeObject(super.defaultOptions, {
 			classes: ["monsterblock", "sheet", "actor"],
-			width: 406,	// Column width of 390, plus 8px of padding on each side.
+			width: 831,	// Column width of 390, plus 8px of padding on each side.
 			height: 400, // Arbitrary and basically meaningless.
 			dragDrop: [{dragSelector: ".item .item-name"}, {dragSelector: ".spell-list .spell"}],
 			resizable: false
